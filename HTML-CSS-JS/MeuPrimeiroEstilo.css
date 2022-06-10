@@ -1,0 +1,9 @@
+body{
+	background: #ccc;
+}
+#title, .subtitle{
+	font-style: bold;
+}
+.footer{
+	font-style: italic;
+}

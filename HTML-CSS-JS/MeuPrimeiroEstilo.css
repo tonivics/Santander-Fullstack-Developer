@@ -16,10 +16,10 @@ body{
 }
 .subtitle{
 	font-weight: bold;
-	margin: 0;
+	margin: none;
 }
 
-.footer{
+.footerTitulo{
 	font-style: italic;
 	text-align: center;
 }

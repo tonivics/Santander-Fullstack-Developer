@@ -1,9 +1,25 @@
 body{
 	background: #ccc;
+	margin: auto;
+	max-width: 100%;
 }
-#title, .subtitle{
-	font-style: bold;
+
+#title{
+	font-weight: bold;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
 }
+
+.image{
+	width: 100%;
+}
+.subtitle{
+	font-weight: bold;
+	margin: 0;
+}
+
 .footer{
 	font-style: italic;
+	text-align: center;
 }

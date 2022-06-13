@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Fundamentos - Flex Wrap</title>
+
+    <style>
+        .flex-container{
+            display: flex;
+            height: 150px;
+            border: 10px solid gray;
+            max-width: 300px;
+        }
+
+        .item{
+            font-size: 24px;
+            height: 50%;
+            text-align: center;
+            min-width: 100px;
+            line-height: 50px;
+        }
+
+        .nowrap{
+            flex-wrap: nowrap;
+        }
+
+        .wrap{
+            flex-wrap: wrap;
+        }
+
+        .wrap-reverse{
+            flex-wrap: wrap-reverse;
+        }
+
+        .pink{
+            background-color: pink;
+        }
+
+        .cyan{
+            background-color: cyan;
+        }
+
+        .yellow{
+            background-color: yellow;
+        }
+
+        .red{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Comportamento sem o wrap</h1>
+
+    <div class="flex-container nowrap">
+        <div class="item pink">1</div>
+        <div class="item cyan">2</div>
+        <div class="item yellow">3</div>
+        <div class="item red">4</div>
+    </div>
+
+    <h1>Comportamento com o wrap</h1>
+
+    <div class="flex-container wrap">
+        <div class="item pink">1</div>
+        <div class="item cyan">2</div>
+        <div class="item yellow">3</div>
+        <div class="item red">4</div>
+    </div>
+
+    <h1>Comportamento com o wrap reverse</h1>
+
+    <div class="flex-container wrap-reverse">
+        <div class="item pink">1</div>
+        <div class="item cyan">2</div>
+        <div class="item yellow">3</div>
+        <div class="item red">4</div>
+    </div>
+</body>    
+</html>

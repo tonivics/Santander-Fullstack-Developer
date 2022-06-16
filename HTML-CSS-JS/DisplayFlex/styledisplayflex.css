@@ -1,0 +1,12 @@
+.flex{
+    max-width: 300px;
+    padding: 10px;
+    border: 5px solid black;
+    display: flex;
+}
+
+.item{
+    list-style-type: none;
+    background-color: rgb(255, 0, 255);
+    margin: 5px;
+}

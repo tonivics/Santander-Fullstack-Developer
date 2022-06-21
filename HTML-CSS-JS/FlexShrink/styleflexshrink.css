@@ -1,0 +1,37 @@
+.flex-container{
+    display: flex;
+    border: 1px solid black;
+    max-width: 600px;
+    margin-bottom: 15px;
+}
+
+.item{
+    background-color: lightblue;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    margin: 5px;
+}
+
+.shrink-0{
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+
+.shrink-1{
+    flex-shrink: 1;
+}
+
+.shrink-2{
+    flex-shrink: 2;
+    flex-basis: 100px;
+}
+
+.shrink-3{
+    flex-shrink: 3;
+    flex-basis: 100px;
+}
+
+.grow-1{
+    flex-grow: 1;
+}

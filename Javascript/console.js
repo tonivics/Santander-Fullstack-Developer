@@ -1,18 +1,20 @@
 // Executando um arquivo.js
 
 function retornaNumPares(array){
-    let numPares = []; // Instancia um array vazio;
+    let numPares = [];
+    let numImpares = []; 
     for(let i = 0; i < array.length; i++){
         if(array[i] % 2 === 0){
             numPares.push(array[i]);
         }else{
-            console.log(array[i], 'não é par!');
+            numImpares.push(array[i]);
         }
     }
 
     console.log('Números pares: ',numPares);
+    console.log('Números ímpares: ',numImpares);
 }
 
-let array = [1,2,4,5,8];
+let arrayTeste = [1,2,4,5,8];
 
-retornaNumPares(array);
+retornaNumPares(arrayTeste);

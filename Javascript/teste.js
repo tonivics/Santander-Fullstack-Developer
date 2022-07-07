@@ -15,8 +15,11 @@ const PI = 3.14; // O valor de uma constante não pode ser alterado
 // Funções:
 
 function soma(a, b){
-    return a + b; // Resultado: 8
+    //return a + b; // Resultado: 8
+    console.log(a+b);
 }
 
-soma(3, 5);
+let num1 = 10;
+let num2 = 12;
+soma(num1, num2);
 

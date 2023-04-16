@@ -18,7 +18,7 @@ function verificaArray(array, number){
             console.log(error.message);
             console.log(error.name);
         }else{
-            console.log('Erro inesperado' + error.name);
+            console.log('Erro inesperado!: ' + error.name);
         }
     }
 }

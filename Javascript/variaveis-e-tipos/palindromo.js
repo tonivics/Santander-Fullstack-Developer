@@ -1,7 +1,7 @@
 // Solução 1
 
 function verificaPalindromo(string){
-    if(!string) return "Strirng inválida";
+    if(!string) return "String inválida";
 
     return string.split("").reverse().join("") === string;
 }

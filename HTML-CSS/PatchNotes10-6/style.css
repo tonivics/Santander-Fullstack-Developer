@@ -4,22 +4,14 @@ body{
 	width: 100%;
 }
 
-#title{
-	font-weight: bold;
-	font-size: 40px;
-	text-transform: uppercase;
-	text-align: center;
+#cabecalho{
+	background-image: url("https://static.cdprojektred.com/cms.cdprojektred.com/16x9_big/12be2f64c7d173240da985140a7a4656d0094af6-1920x1080.jpg");
+	background-size: 100%;
+	width: auto;
+	height: auto;
 }
 
-.image{
-	width: 100%;
-}
-.subtitle{
-	font-weight: bold;
-	margin: none;
-}
 
-.footerTitulo{
-	font-style: italic;
-	text-align: center;
-}
+
+
+
